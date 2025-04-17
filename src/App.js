@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Canvas shadows camera={{ position: [0, 2, 5], fov: 60 }}>
+      <Canvas shadows camera={{ position: [20, 7, 10], fov: 50 }}>
         <color args={[0.115, 0.15, 0.15]} attach="background" />
         <Ligh />
         <ambientLight intensity={0.5} />
